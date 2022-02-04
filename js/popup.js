@@ -1,6 +1,6 @@
 chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
+    
     let url = tabs[0].url;
-
     let domain = (new URL(url));
     domain = domain.hostname;
     $("#domain_name").html( domain );

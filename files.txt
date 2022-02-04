@@ -5,3 +5,4 @@ index.js
 Elmah.axd
 backup
 backups
+logs

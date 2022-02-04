@@ -6,7 +6,7 @@
     "icons":{
         "16":"/images/16.png",
         "48":"/images/48.png",
-        "128":"/images/128.png"
+        "128":"/images/128-1.png"
     },
     "browser_action":{
         "default_icon":"/images/48.png",
@@ -15,7 +15,6 @@
     "permissions":[
         "tabs",  
         "http://*/*",
-        "https://*/*",
-        "https://www.google.com/*",
-        "http://www.google.com/*"]    
+        "https://*/*"
+    ]    
 }
