@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "FastFuzz CSP",
     "version": "1.0",
-    "description": "FastFuzz fast fuzzing with chorme extension",
+    "description": "FastFuzz fast fuzzing with chrome extension",
     "icons":{
         "16":"/images/16.png",
         "48":"/images/48.png",

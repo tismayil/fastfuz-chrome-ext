@@ -1,5 +1,5 @@
-# FastFuzz Chorme Extension
-Fast fuzzing websites with chorme extension
+# FastFuzz Chrome Extension
+Fast fuzzing websites with chrome extension
 
 ### Add Your Custmo Files
 - Open files.txt
@@ -9,4 +9,4 @@ Fast fuzzing websites with chorme extension
 ### TODO
 - Add response size foundings
 - Add new specific file and directory names
-- Add Extension to chorme extension marketplace
+- Add Extension to chrome extension marketplace
