@@ -28,15 +28,14 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
         $(".check-bar").val(FileList[taskNum]);
         setTimeout(function(){
             if( checkU( "https://"+domain+"/"+FileList[taskNum]) == "200" ){
+                $("#loadBARbig").remove();
                 $(".list-group").append(`
                     <a href="https://`+domain+`/`+FileList[taskNum]+`" target="p" >
                     <li class="list-group-item list-group-item-success">`+FileList[taskNum]+` Found</li>
                     </a>
                 `)
-            } else {
-                $(".list-group").append(`<li class="list-group-item list-group-item-danger">`+FileList[taskNum]+` not found</li>`)
-            }
-            $("#loadBARbig").remove();
+            } 
+            
             next();
         },time)
     }
@@ -54,6 +53,7 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
     
     $(document).queue('tasks', function(){
         $(".check-bar").val("Scan completed....");
+        $("#loadBARbig").remove();
     });
     
     $(document).dequeue('tasks');
