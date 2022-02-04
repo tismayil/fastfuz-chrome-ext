@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "CSPSC",
+    "version": "1.0",
+    "description": "Caspisec First Step Security Checker",
+    "icons":{
+        "16":"/images/16.png",
+        "48":"/images/48.png",
+        "128":"/images/128.png"
+    },
+    "browser_action":{
+        "default_icon":"/images/48.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "tabs",  
+        "http://*/*",
+        "https://*/*",
+        "https://www.google.com/*",
+        "http://www.google.com/*"]    
+}
