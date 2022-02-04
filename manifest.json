@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "CSPSC",
+    "name": "FastFuzz CSP",
     "version": "1.0",
-    "description": "Caspisec First Step Security Checker",
+    "description": "FastFuzz fast fuzzing with chorme extension",
     "icons":{
         "16":"/images/16.png",
         "48":"/images/48.png",
